@@ -32,4 +32,19 @@ R1(config)# aaa new-model
 R1(config)# username Eddie password cisco
 R1(config)# aaa authentication login default local
 ```
+**What did we just do?**
+
+***Global***
+
+First of all, the `aaa new-model` command is a critical first step in establishing **AAA** user authentication and starts the global process for **AAA** on the router. 
+
+***Local***
+
+Next a local `username/password` database is used to provide access to a small group of users by using the `username` _Eddie_ `password` _cisco_. Bear in mind the `username secret` command may also be used to configure a username and its associated MD5-encrypted secret. 
+
+***Default***
+
+The last command we used is `aaa authentication login` and here we define the **default** method to be used when a user logs in, which can be any of the following:
+
+
 
