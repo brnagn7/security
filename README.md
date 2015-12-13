@@ -1,3 +1,3 @@
-# Network Security
+# Network Security 1st Edition
 
-This file serves as your book's preface, a great place to describe your book's content and ideas.
+This book is written as a collection of notes that I have gathered that I hope some may find useful. It is a book that is geared towards Network Associates from the world of Cisco. 
